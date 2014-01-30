@@ -2,7 +2,7 @@ import sqlite3 as lite
 import sys
 import re
 
-
+# The class for processing
 class ProcessPages:
 
   # Constructor, sets up all the structures and opens the output file
