@@ -110,6 +110,7 @@ def main():
 
   # Connects to the database, command line argument specifies db location
   conn = lite.connect(sys.argv[1])
+  conn.text_factory = str
 
   # Selects all of the entries in the database and stores them in the
   # rows variable. This is then iterated through, with each row being
